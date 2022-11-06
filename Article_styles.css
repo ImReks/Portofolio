@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.MySelfBody {
+    background-color: rgb(3, 63, 78);
+}
+
+.ProjectenBody {
+    background-color: rgb(7, 90, 25);
+
+}
+
+.ContactBody {
+    background-color: rgb(90, 7, 7);
+
+}
+
+.MySelfBody section main {
+    background-color: rgb(39, 163, 194);
+}
+
+.ProjectenBody main {
+    background-color: rgb(42, 189, 74);
+
+}
+
+.ContactBody main {
+    background-color: rgb(206, 50, 50);
+
+}
+
+.MySelfBody header,
+.MySelfBody footer {
+    background-color: rgb(2, 45, 56);
+}
+
+.ContactBody header,
+.ContactBody footer {
+    background-color: rgb(56, 2, 2);
+}
+
+.ProjectenBody header,
+.ProjectenBody footer {
+    background-color: rgb(2, 56, 18);
+}
+
+
+
+body,
+main,
+header,
+footer {
+    background-blend-mode: multiply;
+    background-image: url("../Assets/BackgroundArticle.png");
+    background-size: 50%;
+}
+
+header {
+    display: flex;
+    padding: 25px;
+    padding-bottom: 5px;
+    box-shadow: 0 25px 50px 5px black;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    margin: 25px;
+    flex-wrap: wrap;
+}
+
+
+
+header h1 {
+    font-size: 64px;
+    color: white;
+    font-style: bold;
+}
+
+header h2 {
+    font-size: 24px;
+    color: rgb(119, 119, 119);
+    font-style: bold;
+    margin-bottom: 25px;
+}
+
+header a,
+footer a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    border-radius: 50px;
+}
+
+header a:hover,
+footer a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+section ul {
+    margin-left: 25px;
+}
+
+.MainContent {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+
+}
+
+main {
+    border-radius: 50px;
+    padding-top: 25px;
+    margin-left: auto;
+    width: 100%;
+    margin-right: auto;
+    margin-top: 50px;
+    box-shadow: inset 0 0 50px 5px black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.MySelfBody aside {
+    background-color: rgb(39, 163, 194);
+}
+
+aside {
+    width: 100%;
+    border-radius: 50px;
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    box-shadow: inset 0 0 50px 5px black;
+    display: flex;
+    flex-direction: column;
+}
+main section,
+aside figure section {
+    background-image: url("../Assets/BackgroundArticle.png");
+    width: 80%;
+    background-size: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border-radius: 50px;
+    padding: 25px;
+    box-shadow: inset 0 0 50px 5px black;
+}
+main a section figure, main section figure
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main section figure section
+{
+    background: none;
+    box-shadow: none;
+}
+aside figure img {
+    display: block;
+    width: 90%;
+    box-shadow: inset 0 0 50px 5px black;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+}
+footer {
+    padding: 25px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: 25%;
+    box-shadow: 0 -25px 50px 5px black;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+main a
+{
+color: black;
+text-decoration: none;
+}
+main a:hover
+{
+color: black;
+text-decoration: none;
+}
+main a:visited 
+{
+color: black;
+text-decoration: none;
+}
+.projectImage
+{
+width: 100%;
+border-radius: 50px;
+}
+form
+{
+display: flex;
+flex-direction: column;
+}
+form input, form select
+{
+    width: 25%;
+}
+#message
+{
+    width: 100%;
+    height: 20vh;
+    border-radius: 10px;
+}
+@media (min-width:768px)
+{
+    header
+    {
+        flex-direction: row;
+    }
+    .MainContent
+    {
+        flex-direction: row;
+        gap:2vw;
+    }
+    aside
+    {
+        width: 25%;
+    }
+    main
+    {
+        width: 65%;
+    }
+    main a section figure, main section figure
+    {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+.projectImage
+{
+width: 30vw;
+border-radius: 50px;
+}
+}
