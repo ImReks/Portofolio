@@ -1,0 +1,57 @@
+body
+{
+    background-color: gray;
+}
+
+section
+{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50px;
+    background-color: red;
+}
+#ball0
+{
+ width: 200px;
+ height: 200px;
+position: absolute;
+ border-radius: 100px;
+ background-color: rgb(165, 55, 55)
+}
+#ball1
+{
+ width: 200px;
+ height: 200px;
+ position: absolute;
+ border-radius: 100px;
+ background-color: rgb(60, 207, 117);
+}
+#ball2
+{
+ width: 200px;
+ height: 200px;
+ position: absolute;
+ border-radius: 100px;
+ background-color: rgb(57, 90, 240);
+}
+#ball3
+{
+ width: 200px;
+ height: 200px;
+ position: absolute;
+ border-radius: 100px;
+ background-color: rgb(210, 212, 57);
+}
+#ball4
+{
+ width: 200px;
+ height: 200px;
+ position: absolute;
+ border-radius: 100px;
+ background-color: rgb(225, 0, 255);
+}
+a:hover
+{
+    filter:saturate(2);
+}
